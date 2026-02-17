@@ -34,3 +34,4 @@ chmod +x "$HOME/.local/bin/mago-vscode-format"
 For more information see:
 
 - [Mago](https://mago.carthage.software/)
+- [VSCode marketplace for Custom Local Formatters](https://marketplace.visualstudio.com/items?itemName=jkillian.custom-local-formatters)
