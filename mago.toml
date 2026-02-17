@@ -1,0 +1,22 @@
+[source]
+excludes = [
+  "**/vendor/**",
+  "**/node_modules/**",
+  "**/.git/**",
+  "**/wp-admin/**",
+  "**/wp-includes/**",
+  "**/wp-content/uploads/**",
+]
+extensions = ["php", "phtml"]
+
+[parser]
+enable-short-tags = false
+
+[formatter]
+null-type-hint = "null_pipe_last"
+print-width = 145
+
+[linter]
+excludes = [
+  "**/*.php.html",
+]
