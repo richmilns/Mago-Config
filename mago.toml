@@ -13,7 +13,10 @@ extensions = ["php", "phtml"]
 enable-short-tags = false
 
 [formatter]
+first-method-chain-on-new-line = true
+method-chain-breaking-style = "next-line"
 null-type-hint = "null_pipe_last"
+preserve-breaking-member-access-chain = true
 print-width = 145
 
 [linter]
